@@ -4,11 +4,18 @@ For heatmap.js     data type: JSON
 var data = {
   max: 100,
   min: 0,
-  data: [
+  dataPoints: [
     dataPoint, dataPoint, dataPoint, dataPoint
   ]
 };
 
+var dataPoints = [dataPoint, dataPoint, dataPoint, dataPoint];
+
+var dataPoint = { 
+  x: 5, // x coordinate of the datapoint, a number 
+  y: 5, // y coordinate of the datapoint, a number
+  value: 100 // the value at datapoint(x, y)
+};
 
 /////////////////////////////////////////////////////
 Functions:
