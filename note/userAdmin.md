@@ -1,5 +1,5 @@
 
-#Goal: to run a php script that can add new "User" and "Website" as piwik administer
+####Goal: to run a php script that can add new "User" and "Website" as piwik administer
 
 ####Detail:
 1. Create new piwik user
@@ -19,10 +19,10 @@
 when each website added, need to generate tracking code for new website
 
 
-key point:
-1. need to access piwik database and modify the correspond table (such as add "user" and "website")
-2. (need to know how to call piwik API in php or other script)
-3. find out what modal/APIs/functions might need. 
+####key point:
+1. need to access piwik database and modify the correspond table (such as add "user" and "website")  
+2. (need to know how to call piwik API in php or other script)  
+3. find out what modal/APIs/functions might need.   
 Here is for classes list(http://developer.piwik.org/api-reference/classes)
 
 	("acess") (http://developer.piwik.org/api-reference/Piwik/Access)
@@ -48,10 +48,10 @@ http://piwik.org/docs/manage-users/
 Analytics Web API (http://piwik.org/docs/analytics-api/)
 Call piwik API (http://developer.piwik.org/guides/querying-the-reporting-api)
 
-######In "plugin" related with user right
+####In "plugin" related with user right
 
-Dashboard 
-Login 
+		Dashboard 
+		Login 
 
 
 
